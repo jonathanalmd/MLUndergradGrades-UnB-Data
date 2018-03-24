@@ -33,4 +33,10 @@ vignettes/*.pdf
 *.knit.md
 
 # pdf files
-#########*.pdf
+*.pdf
+
+# Excel
+*.xsls
+
+# Secret data
+/data/input/
