@@ -38,5 +38,9 @@ vignettes/*.pdf
 # Excel
 *.xsls
 
-# Secret data
+# Private data
 /data/input/
+
+# ipython notebook
+.ipynb_checkpoints/
+
