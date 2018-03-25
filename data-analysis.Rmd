@@ -1,0 +1,22 @@
+---
+title: "Intro to Computer Science Data Analysis"
+author: ['Jonathan Mendes de Almeida', 'jonathanalmd@gmail.com', 'jonathan@aluno.unb.br','@jonyddev (github)']
+lang: en
+date: "`r format(Sys.time(), '%b %d, %Y')`"
+output:
+    pdf_document:
+      latex_engine: xelatex
+---
+
+
+```{r setup, include=FALSE}
+# Set Rmd file location as current directory
+knitr::opts_knit$set(root.dir = getwd())
+```
+
+```{r eval=TRUE}
+input_data = 'data/wrangled_intro-cs-grades-2017_1.csv'
+student_df_2017_1 <- read.csv(input_data, header=TRUE)
+head(student_df_2017_1)
+```
+
