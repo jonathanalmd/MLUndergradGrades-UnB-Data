@@ -1,6 +1,6 @@
 # MLUndergradGrades-UnB-Data
 
-Machine learning, statistical analysis, plots and cool stuffs using undergrad students grades in Introduction to CS from University of Brasília.
+Machine learning, statistical analysis, data visualization and cool stuffs using undergrad students grades in Introduction to CS from University of Brasília.
 
 ## Goal
 
